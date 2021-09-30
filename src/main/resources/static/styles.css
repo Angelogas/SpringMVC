@@ -1,0 +1,91 @@
+#header{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#header h1 {
+  color: white;
+}
+.typedCursor {
+  height: 28px;
+  margin-left: 2px;
+  width: 1px;
+  border: 1px solid white;
+  background-color: white;
+}
+body {
+  margin-top: 0;
+  overflow: hidden;
+}
+.container {
+  overflow-y: scroll;
+  background-image: url('https://blog.cloudware.bg/wp-content/uploads/2017/11/data_1.jpg');
+  height: 100vh;
+}
+#resumeContent {
+  width: 1500px;
+  height: 2000px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 75%;
+}
+.tableRight {
+  display: block;
+  margin-left: 10px;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+  border-radius: 75%;
+}
+.personalInfo {
+  background-color: #6B7AA1;
+  height: 250px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#HighestTable {
+  display: block;
+  margin :0;
+  border-spacing: 0;
+  background-color: white;
+}
+
+#myName {
+  color: white;
+  margin-top: 0;
+}
+#myJob {
+  color: #e6d564;
+  margin-top: 0;
+}
+#myExperience {
+  color: white;
+  margin-top: 0;
+}
+#profPic {
+  border-radius: 100%;
+}
+
+#HighestTable tbody {
+  display: block;
+  width: 100%;
+}
+
+#HighestTable tr {
+  display: flex;
+}
+
+.typedCursorActive {
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
